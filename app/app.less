@@ -1,0 +1,102 @@
+@beige : #F1F2F2;
+@blue: #86A7D6;
+@yellow: #ECA848;
+@orange: #E1924E;
+@green: #72BDA7;
+
+
+body {
+    background: @beige;
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    img{
+        max-height: 300px;
+    }
+}
+
+
+.ill{
+    overflow: hidden;
+}
+.illustration{
+    position: relative;
+    img:not(:first-child){
+        position: absolute;
+        left: 0; right: 0;
+        bottom: 0; top: 0;
+    }
+    img.outl{ right: -30%; left:auto; }
+    img.outr{ left: -30%; }
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.info{
+    .text-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        max-width: 100px;
+    }
+    .infotext{
+        display: flex;
+        align-items: center;
+        &:before{
+            content:"";
+            display: block;
+            flex-shrink: 0;
+            width: 10px;
+            height: 100px;
+            margin-right: 20px;
+            background: @blue;
+            border-radius: 10px;
+        }
+        &.b:before{ background: @green; }
+        &.c:before{ background: @orange; }
+        &.d:before{ background: @yellow; }
+
+    }
+}
+
+.h6,.h5,.h4,.h3,.h2,.h1{
+    color:@orange;
+}
+
+.table {
+    thead {
+        background: @orange;
+        color:#fff;
+        th{
+            vertical-align: middle;
+            text-align: center;
+        }
+    }
+    tbody{
+        tr{
+            td:first-child{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+footer {
+    background: #EAEAEA;
+    .logo{
+        max-width: 120px;
+    }
+}
+
+@media (min-width:576px){
+    .table th.d-sm-block,
+    .table td.d-sm-block{
+        display: table-cell !important;
+    }
+}

@@ -1,0 +1,51 @@
+
+mixin tableBuild(tabname)
+    table.table.mt-2
+        thead
+            tr 
+                th(scope="col").d-none.d-sm-block Horario
+                th(scope="col") Temática
+                th(scope="col") Participan
+                th(scope="col").d-none.d-sm-block Transmitiendo en:
+        tbody
+            tr(v-for='(i, index) in '+tabname)
+                td.d-none.d-sm-block {{i.horario}}
+                td
+                    strong.d-block.d-sm-none {{i.horario}}
+                    div {{i.tema}}
+                td 
+                    template(v-for="(p, index2) in i.participan")
+                        hr(v-if="index2>0")
+                        div(v-html="p")
+                    .d-block.d-sm-none                    
+                        hr
+                        a.btn.btn-info.btn-sm(v-if="i.transmitiendo[1]" :href="i.transmitiendo[1]" :alt="i.transmitiendo[1]" :title="i.transmitiendo[1]" target="_blank") {{i.transmitiendo[0]}}
+                td.d-none.d-sm-block
+                    a.btn.btn-info(v-if="i.transmitiendo[1]" :href="i.transmitiendo[1]" :alt="i.transmitiendo[1]" :title="i.transmitiendo[1]" target="_blank")
+                        | {{i.transmitiendo[0]}}
+                    div(v-else) {{i.transmitiendo[0]}}
+
+
+.mt-5.h4 18 de Octubre, 2021
++tableBuild('tabla18Oct')
+
+
+
+
+.mt-5.h4 19 de Octubre, 2021
++tableBuild('tabla19Oct')
+
+
+.mt-5.h4 20 de Octubre, 2021
++tableBuild('tabla20Oct')
+
+.mt-5.h4 21 de Octubre, 2021
++tableBuild('tabla21Oct')
+
+
+.mt-5.h4 22 de Octubre, 2021
++tableBuild('tabla22Oct')
+
+
+//.mt-5.h4 ACTIVIDAD DE TODA LA SEMANA
+//+tableBuild('tablaActividades')

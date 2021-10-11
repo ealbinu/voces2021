@@ -1,0 +1,93 @@
+body {
+  background: #F1F2F2;
+  font-family: 'Nunito', sans-serif;
+}
+header img {
+  max-height: 300px;
+}
+.ill {
+  overflow: hidden;
+}
+.illustration {
+  position: relative;
+}
+.illustration img:not(:first-child) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.illustration img.outl {
+  right: -30%;
+  left: auto;
+}
+.illustration img.outr {
+  left: -30%;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+}
+.info .text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info img {
+  max-width: 100px;
+}
+.info .infotext {
+  display: flex;
+  align-items: center;
+}
+.info .infotext:before {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 10px;
+  height: 100px;
+  margin-right: 20px;
+  background: #86A7D6;
+  border-radius: 10px;
+}
+.info .infotext.b:before {
+  background: #72BDA7;
+}
+.info .infotext.c:before {
+  background: #E1924E;
+}
+.info .infotext.d:before {
+  background: #ECA848;
+}
+.h6,
+.h5,
+.h4,
+.h3,
+.h2,
+.h1 {
+  color: #E1924E;
+}
+.table thead {
+  background: #E1924E;
+  color: #fff;
+}
+.table thead th {
+  vertical-align: middle;
+  text-align: center;
+}
+.table tbody tr td:first-child {
+  font-weight: bold;
+}
+footer {
+  background: #EAEAEA;
+}
+footer .logo {
+  max-width: 120px;
+}
+@media (min-width: 576px) {
+  .table th.d-sm-block,
+  .table td.d-sm-block {
+    display: table-cell !important;
+  }
+}
+/*# sourceMappingURL=app.css.map */

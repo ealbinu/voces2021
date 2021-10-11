@@ -1,0 +1,1 @@
+$(".my-paroller").paroller();var vm=new Vue({el:"#tablas",data:obj});

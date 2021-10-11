@@ -1,0 +1,86 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Voces 2021 | Digital Family
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css", integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU", crossorigin="anonymous")
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css", integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7", crossorigin="anonymous")
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css", integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn", crossorigin="anonymous")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="app/app.css")
+        meta(name="description" content="Voces 2021 | Fortaleciendo la Ciudadanía Digital a través de acciones. Del 18 al 22 de Octubre, 2021.")
+        link(rel="icon" type="image/png" href="favicon.png")
+
+        script(async src="https://www.googletagmanager.com/gtag/js?id=G-Z0Q8TDTCVP")
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date())
+            gtag('config', 'G-Z0Q8TDTCVP')
+
+    body
+        header.container: .row.align-items-center
+            .col-6: img(src="app/voces.svg", alt="Voces 2021").img-fluid
+            .col-6: img(src="app/digitalfamily-ilce.svg", alt="Digital Family | ILCE").img-fluid
+
+
+        section.ill
+
+            .row: .col-md-8.offset-md-2.col-12.offset-0
+                .illustration
+                    img(src="app/illustration/01.svg", alt="Voces2021").img-fluid
+                    img(src="app/illustration/02.svg", alt="Voces2021" class="my-paroller" data-paroller-factor=".3" data-paroller-type="foreground" data-paroller-direction="vertical").img-fluid
+                    img(src="app/illustration/03.svg", alt="Voces2021" class="my-paroller" data-paroller-factor=".5" data-paroller-type="foreground" data-paroller-direction="vertical").img-fluid
+                    img(src="app/illustration/04.svg", alt="Voces2021" class="my-paroller" data-paroller-factor="1" data-paroller-type="foreground" data-paroller-direction="horizontal").img-fluid.outl
+                    img(src="app/illustration/05.svg", alt="Voces2021" class="my-paroller" data-paroller-factor="-1" data-paroller-type="foreground" data-paroller-direction="horizontal").img-fluid.outr
+                    img(src="app/illustration/06.svg", alt="Voces2021" class="my-paroller" data-paroller-factor=".1" data-paroller-type="foreground" data-paroller-direction="vertical").img-fluid
+                    img(src="app/illustration/07.svg", alt="Voces2021" class="my-paroller" data-paroller-factor=".2" data-paroller-type="foreground" data-paroller-direction="vertical").img-fluid
+
+        section.info.container.py-5
+            .row.align-items-center
+                .col-md-8
+                    div.infotext.a
+                        p.lead A medida que la tecnología se vuelve cada vez más omnipresente en la vida de los estudiantes, es cada vez más importante para los educadores modelar y enseñar cómo llevar a cabo comportamientos positivos, seguros, legales y éticos en línea. El desafío de fomentar una ciudadanía digital efectiva es particularmente crítico, ya que la pandemia de COVID-19 empuja a  millones de estudiantes a interactuar virtualmente.
+                .col-md.text-center: img(src="app/info1.svg", alt="Voces 2021" ).img-fluid
+            .row
+                .col-md-8
+                    div.infotext.b
+                        p.lead.mt-5 La semana del #[strong 18 al 22 de Octubre de 2021] celebraremos la Semana de Ciudadanía Digital, un compromiso con la Ciudadanía Digital en colaboración con varios organizaciones por unir voces, compartir recursos y promover las mejores prácticas en ciudadanía digital; define la ciudadanía digital en donde aprendemos y aprendemos con otros, nos respetamos y respetamos a otros y nos protegemos y protegemos a otros.
+                .col-md.text-center: img(src="app/info2.svg", alt="Voces 2021").img-fluid
+            .row
+                .col-md-8
+                    div.infotext.c
+                        p.lead.mt-5 Una habilidad fundamental en la que nos centramos es la ciudadanía digital. Independientemente de las carreras que nuestros estudiantes elijan tomar, inevitablemente participarán en algún tipo de interacción a través de medios virtuales. La capacidad de los educadores y padres de familia como socios activos es una pieza importante de este rompecabezas. Es el trabajo de todos enseñar ciudadanía digital y hay varias formas de destacar este importante tema sobre el uso crítico, autónomo, seguro y responsable de la tecnología para aprender, crear y participar.
+                .col-md.text-center: img(src="app/info3.svg", alt="Voces 2021").img-fluid
+            .row
+                .col-md-8
+                    div.infotext.d
+                        p.lead.mt-5 La conversación en torno a la tecnología ahora está cambiando para garantizar que nuestras inversiones realmente mejoren el aprendizaje, y la pandemia ha acelerado ese cambio. Aunque nuestra infraestructura técnica y de contenido apoyó la transición inicial al aprendizaje en línea, ahora estamos centrando nuestra atención en ayudar a los educadores y familias a aprovechar ese acceso, tanto durante los cierres como cuando las escuelas reabren, para desarrollar las habilidades que los estudiantes necesitarán para durante su proceso de aprendizaje y para la vida.
+                .col-md.text-center: img(src="app/info4.svg", alt="Voces 2021").img-fluid
+            
+        section.programa.container.py-5
+            .row.mt-5
+                .col-12.text-center
+                    .h6 PROGRAMA
+                    .h5 SEMANA DE CIUDADANÍA DIGITAL
+                    .lead Del 18 al 22 de Octubre de 2021
+        
+            #tablas
+                include app/_tablas.pug
+        
+        footer
+            .container.py-5
+                .text-center
+                    a(href="https://digitalfamily.mx"): img(src="app/df.png", alt="Digital Family").logo.img-fluid
+                    
+
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/paroller.js/1.4.7/jquery.paroller.min.js")
+        script(src="https://unpkg.com/vue@2.6.14/dist/vue.js")
+        script(src="app/tablas.js")
+        script(src="app/app.js")
