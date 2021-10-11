@@ -86,8 +86,8 @@ var tabla22 = [
         participan: ['Francisco Diaz de León Director de Operaciones Digital Family'],
         transmitiendo: ['Canal YouTube Digital Family','https://www.youtube.com/watch?v=YBKMKovGujw']},
     {horario: '18:00 hrs', tema:'Cierre Voces 2021',
-        participan:[],
-        transmitiendo:[], }
+        participan:['Romina Riviello, Fundadora y CEO. Digital Family'],
+        transmitiendo:['Canal Digital Family','https://www.youtube.com/watch?v=rcg0mhuNYoc'], }
 ]
 /*
 var tabla22 = [
