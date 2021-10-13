@@ -13,7 +13,7 @@
         },
         {
             "horario": "16:00 hrs",
-            "tema": "Cyberbulling: estrategias y recursos",
+            "tema": "Cyberbulling: estrategias de cuidado con nuestros hijos.",
             "participan": ["Sissy Cancino Directora de MODERS Aliada estratégica y Embajadora de CommonSense en México", "Cathy Calderon Psicóloga Especialista en Inteligencia socio-emocional Digital Family"],
             "transmitiendo": ["Canal YouTube Digital Family", "https://www.youtube.com/watch?v=1HKds9S579A"]
         },
@@ -55,12 +55,6 @@
             "transmitiendo": ["Canal YouTube Digital Family", "https://www.youtube.com/watch?v=o7MnrEoTt8k"]
         },
         {
-            "horario": "Todo el día",
-            "tema": "Los videojuegos y el bienestar pueden convivir en una familia digital.",
-            "participan": ["Cesar Salcedo Maker Aprendizaje continuo Digital Family"],
-            "transmitiendo": ["Twitter Todo el dia"]
-        },
-        {
             "horario": "18:00 hrs",
             "tema": "Construyendo una huella digital.",
             "participan": ["Luis Ramirez Maker Aprendizaje continuo Digital Family"],
@@ -75,10 +69,9 @@
             "transmitiendo": ["Canal YouTube ILCE", "https://youtu.be/i9HhFK5XF2Q"]
         },
         {
-            "comment": {"horario": "13:00 hrs", "tema": "Cómo incentivar la participación social en estudiantes pequeños y preadolescentes como parte de la ciudadanía digital.", "participan": ["Eugenia Tamez Hispanoamérica Digital Citizenship Institute"], "transmitiendo": ["Canal YouTube ILCE","https://youtu.be/i9HhFK5XF2Q"]},
             "horario": "13:00 hrs",
-            "tema": "Fortaleciendo la ciudadanía digital a través de acción.",
-            "participan": ["Xochitl Castañeda Directora de Desarrollo, Investigación e Innovación  de Digital Family"],
+            "tema": "¿Niños y adolescentes cambiando al mundo?",
+            "participan": ["Eugenia Tamez Hispanoamérica Digital Citizenship Institute", "Xochitl Castañeda Directora de Desarrollo, Investigación e Innovación  de Digital Family"],
             "transmitiendo": ["Canal YouTube ILCE", "https://youtu.be/i9HhFK5XF2Q"]
         },
         {
@@ -90,7 +83,7 @@
         {
             "horario": "17:00 hrs",
             "tema": "AMI y Clic seguro",
-            "participan": ["UNESCO"],
+            "participan": ["Gabriela Rodríguez Consultora Externa en Educación UNESCO"],
             "transmitiendo": ["Canal YouTube Digital Family", "https://www.youtube.com/watch?v=gj-hK2Nsv5Q"]
         },
         {
